@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fast Food</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!----------------------------- Navbar ----------------------------->
+    <div class="navbar">
+        <div>
+            <img src="images/logo.png" class="logo" alt="fast-food logo">
+        </div>
+        <div>
+            <ol class="nav_links">
+                <ul>Home</ul>
+                <ul>Recipe</ul>
+                <ul>Contact</ul>
+            </ol>
+        </div>
+    </div>
+
+
+    <!----------------------------- Heading ----------------------------->
+
+    <section class="heading_container">
+        <div class="heading">
+            <h1><span class="highlight">Skip</span> The Diet,<br> Just Eat Healthy<br>With Food Network</h1>
+            <p class="heading_para">Imagine you don't need a diet because we provide<br>healthy and delicious food for you!</p>
+            <button class="btn">Order Food</button>
+        </div>
+        <div><img src="images/model1.png" class="model1" alt="model"></div>
+    </section>
+
+    <!----------------------------- About me ----------------------------->
+
+    <section class="about_container">
+        <div> <img src="images/model2.png" class="model2" alt="model"> </div>
+        <div class="about">
+            <h2>About Me</h2>
+            <p class="heading_para">This topic is very attracting. We eat food everyday, but <br> we don’t know why we love them. When I was an undergraduate student, dumpling is my favorite food. I really hope to know why I love dumpling so much . However, as you say, it is really hard to know why we love food. </p>
+            <button class="btn">Contact Me</button>
+        </div>
+    </section>
+
+    <!----------------------------- recipie ----------------------------->
+
+    <div class="recipie">
+        <h2>My recipies</h2>
+        <p class="heading_para">Food is a major part of travel because tasting delicacies in a new destination is a satisfying experience. The way a culture’s traditional cuisine is portrayed through media can inspire our travels—and our restaurant reservations. </p>
+    </div>
+
+
+    <!----------------------------- cards ----------------------------->
+
+    <section class="card_container">
+        <div class="cards">
+            <img src="images/card1.png" class="card_image" alt="loading...">
+            <h3>Recipie Tittle</h3>
+            <p class="card_para">Never describe food as bizarre, strange, odd, unusual, abnormal, or weird. Just because a flavor profile is uncommon in Western cuisine doesn’t make it obscure.</p>
+        </div>
+        <div class="cards">
+            <img src="images/card2.png" class="card_image"  alt="loading...">
+            <h3>Recipie Tittle</h3>
+            <p class="card_para">Never describe food as bizarre, strange, odd, unusual, abnormal, or weird. Just because a flavor profile is uncommon in Western cuisine doesn’t make it obscure.</p>
+        </div>
+        <div class="cards">
+            <img src="images/card3.png" class="card_image"  alt="loading...">
+            <h3>Recipie Tittle</h3>
+            <p class="card_para">Never describe food as bizarre, strange, odd, unusual, abnormal, or weird. Just because a flavor profile is uncommon in Western cuisine doesn’t make it obscure.</p>
+        </div>
+    </section>
+
+
+    <!----------------------------- comment box ----------------------------->
+
+    <section class="comment">
+        <h2>Speak What's on your Mind</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="YOUR NAME"></p>
+            <input type="email" name="mail" placeholder="YOURMAIL@GMAIL.COM"></p>
+            <textarea name="comments" placeholder="YOUR VALUEABLE COMMENT HERE..." ></textarea>
+            <br>
+            <button>Submit</button>
+
+        </form>
+    </section>
+
+
+
+    <!----------------------------- footer ----------------------------->
+    <footer>
+        <h4> <span class="footer_title">FAST</span> FOOD</h4>
+        <p class="advice"><small >Eat healthy to live healthy. Live healthy to live happy.</small></p>
+    </footer>
 </body>
 </html>
